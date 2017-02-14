@@ -37,7 +37,6 @@ nav ul li:hover {
 }
 nav ul li a:hover {
 	color: #fff;
-
 }
 .text-header {
 	margin: 160px 20% 0 20%;
@@ -61,10 +60,6 @@ nav ul li a:hover {
 .text-header button:focus {
 	outline: none;
 }
-
-
-
-
 .row {
 	margin: 50px 10% 50px 10%;
 	border-bottom: 1px solid #d6d6d6;
@@ -92,9 +87,6 @@ nav ul li a:hover {
 	outline: none;
 	background: #fff;
 }
-
-
-
 .col-1 {
 	display: inline-block;
 	margin: 0 10px;
@@ -109,8 +101,6 @@ nav ul li a:hover {
 	padding-bottom: 40px;
 	min-height: 500px;
 }
-
-
 
 .column img{
 	display: inline-block;
@@ -139,4 +129,11 @@ nav ul li a:hover {
 .footer ul li a {
 	color: #337ab7;
 	text-decoration: none;
+}
+.footer ul li a::before {
+    display: inline-block;
+    font-size: 10px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 5px;
 }
