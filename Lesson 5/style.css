@@ -7,8 +7,8 @@ body {
 }
 nav ul {
 	margin: 0 10% 0 10%;
-	padding-left: 0;
 	background: #222222;
+	padding-left: 0;
 	border-radius: 3px;
 }
 nav ul li {
@@ -80,11 +80,40 @@ nav ul li a:hover {
 
 
 
-.content {
-	margin: 50px 10% 50px 10%;
-}
 .col-1 {
-	width: 45%;
+	display: inline-block;
+	margin: 0 10px;
+	width: calc(100% / 2 - 20px);
+	text-align: center;
+	color: #5A5A5A;
+	vertical-align: top;
 }
-.col-2 {
-	width: 45%;
+.img-1 {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	background: url(./image/11.jpg);
+}
+.img-2 {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	background: url(./image/22.jpg);
+}
+.img-3 {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	background: url(./image/33.jpg);
+}
+.column {
+	display: inline-block;
+	margin: 40px 10% 0 10%;
+	padding-bottom: 40px;
+}
+
+.footer {
+	margin: 0 10% 0 10%;
+	padding-top: 30px;
+	border-top: 1px solid #d6d6d6;
+}
