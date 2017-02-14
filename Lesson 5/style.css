@@ -110,6 +110,8 @@ nav ul li a:hover {
 	min-height: 500px;
 }
 
+
+
 .column img{
 	display: inline-block;
 	float: right;
@@ -118,8 +120,8 @@ nav ul li a:hover {
 .column.col-2 img {
 	float: left;
 	margin-right: 35px;
+	margin-left: 0px;
 }
-
 
 .footer {
 	margin: 0 10% 30px 10%;
