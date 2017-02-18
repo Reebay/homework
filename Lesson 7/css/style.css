@@ -115,3 +115,15 @@ form {
 .footer p {
 	color: #fff;
 }
+.footer ul li {
+	
+}
+.footer .col-md-4 p a {
+	color: #18BC9C;
+}
+
+.copyright {
+	padding: 20px 0 15px 0;
+	background: #233140;
+	color: #fff;
+}
